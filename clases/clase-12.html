@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Clase 12 de Sistemas y Organización: análisis sistémico del contexto, la sinergia, la recursividad y los agentes de inteligencia artificial.">
+  <meta name="author" content="ISFT N.º 151">
+  <meta name="theme-color" content="#102a43">
+  <title>Clase 12 | Sistema, contexto y agentes de IA</title>
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="container hero">
+      <div class="institution"><span class="institution__mark" aria-hidden="true">151</span><span>ISFT N.º 151<br><small>Tecnicatura Superior en Análisis de Sistemas</small></span></div>
+      <p class="eyebrow">Sistemas y Organización · Clase 12</p>
+      <h1>Del sistema al agente de IA</h1>
+      <p class="hero__subtitle">Contexto, sinergia, recursividad y apertura</p>
+      <p class="lead">Una lectura sistémica para comprender qué debemos modelar antes de construir un agente que intervenga en una organización.</p>
+      <dl class="metadata">
+        <div><dt>Fecha</dt><dd><time datetime="2026-08-28">28 de agosto de 2026</time></dd></div>
+        <div><dt>Modalidad</dt><dd>Encuentro presencial</dd></div>
+        <div><dt>Trayecto</dt><dd>1.º año</dd></div>
+      </dl>
+    </div>
+  </header>
+  <nav class="section-nav" aria-label="Navegación de la clase"><div class="container section-nav__inner">
+    <a class="section-nav__home" href="../index.html">← Materia</a><a href="#proposito">Propósito</a><a href="#marco-teorico">Marco teórico</a><a href="#caso">Caso</a><a href="#ejemplo">Ejemplo</a><a href="#actividad">Consigna</a><a href="#entrega">Entrega</a><a href="#fuentes">Fuentes</a>
+  </div></nav>
+
+  <main id="contenido" class="container page-layout">
+    <article>
+      <section id="proposito" class="section" aria-labelledby="titulo-proposito">
+        <p class="section-kicker">01 · Encuadre</p><h2 id="titulo-proposito">Propósito de la clase</h2>
+        <p class="opening">Durante el primer tramo analizamos los sistemas desde la Ingeniería de Sistemas y la Teoría General de Sistemas. Ahora profundizaremos esa mirada para analizar, diseñar y evaluar un sistema contemporáneo concreto: un agente de inteligencia artificial.</p>
+        <blockquote><p>No comenzamos por la herramienta. Comenzamos por el problema, su contexto y las relaciones que le dan sentido.</p></blockquote>
+        <div class="learning-goals"><h3>Al finalizar, podremos</h3><ul class="check-list">
+          <li>justificar la frontera y el contexto de interés de un sistema;</li><li>reconocer relaciones sinérgicas y niveles recursivos;</li><li>representar entradas, conversión, salidas y retroalimentación;</li><li>trasladar estas categorías al análisis crítico de un agente de IA.</li>
+        </ul></div>
+      </section>
+
+      <section id="marco-teorico" class="section" aria-labelledby="titulo-marco">
+        <p class="section-kicker">02 · Marco teórico</p><h2 id="titulo-marco">Tres lentes para observar el sistema</h2>
+        <p>La frontera, las relaciones y los intercambios no son detalles posteriores: determinan qué sistema estamos describiendo y qué explicaciones resultan posibles.</p>
+        <div class="concept-stack">
+          <section class="concept" aria-labelledby="contexto-title"><div class="concept__number" aria-hidden="true">7</div><div>
+            <p class="concept__chapter">Lorenzón · capítulo 7</p><h3 id="contexto-title">El sistema y su contexto</h3>
+            <p>La frontera del sistema es una decisión del observador. Delimitar implica establecer qué variables quedan dentro del dominio de análisis y cuáles actúan desde el contexto.</p>
+            <dl class="terms"><div><dt>Frontera</dt><dd>Recorte que diferencia el sistema de aquello que se considera contexto.</dd></div><div><dt>Contexto de interés</dt><dd>Variables externas seleccionadas por su incidencia significativa.</dd></div><div><dt>Área gris</dt><dd>Zona en la que los límites no son nítidos y deben justificarse.</dd></div><div><dt>Foco de atención</dt><dd>Porción de la realidad sobre la cual se concentra el análisis.</dd></div></dl>
+            <div class="deep-reading"><h4>Lectura en profundidad</h4><ul><li><strong>El sistema es un modelo, no la realidad completa.</strong> El observador construye un recorte según una finalidad; dos análisis pueden trazar fronteras diferentes si las justifican.</li><li><strong>La frontera delimita el dominio de cambios.</strong> Lo interno puede investigarse o modificarse; lo externo se toma como condición o perturbación.</li><li><strong>El contexto de interés exige selección.</strong> No es todo lo exterior, sino los sistemas externos cuya relación puede alterar significativamente el objetivo.</li><li><strong>La confiabilidad tiene un costo.</strong> Ampliar el contexto puede mejorar la explicación, pero también aumenta variables, relaciones y esfuerzo.</li></ul><p class="reading-question"><strong>Pregunta de lectura:</strong> ¿qué causa quedaría invisible si trazamos una frontera demasiado estrecha?</p></div>
+            <p class="annotation"><strong>Aplicación:</strong> decidir si el modelo, la base documental, las herramientas, la interfaz y la supervisión humana forman parte del agente depende del propósito del análisis.</p>
+          </div></section>
+          <section class="concept" aria-labelledby="sinergia-title"><div class="concept__number" aria-hidden="true">8</div><div>
+            <p class="concept__chapter">Lorenzón · capítulo 8</p><h3 id="sinergia-title">Sinergia y recursividad</h3>
+            <p><strong>Sinergia</strong> significa que el comportamiento del conjunto no se explica como la suma de partes independientes: importan las relaciones, la coordinación y los efectos emergentes. La <strong>recursividad</strong> permite observar niveles: un sistema contiene subsistemas y, a la vez, integra un sistema mayor.</p>
+            <div class="comparison"><div><span class="label">Conglomerado</span><p>Partes reunidas sin una relación organizadora relevante.</p></div><div><span class="label label--accent">Sistema</span><p>Componentes cuyas relaciones producen un comportamiento global.</p></div></div>
+            <div class="deep-reading"><h4>Lectura en profundidad</h4><ul><li><strong>La sinergia desplaza la atención hacia las relaciones.</strong> Si conocer cada componente por separado no permite deducir la conducta del conjunto, existe comportamiento sinérgico.</li><li><strong>Integrar no es acumular.</strong> La integración requiere organización y una finalidad común; una reunión sin relaciones significativas es un conglomerado.</li><li><strong>La recursividad permite cambiar de escala.</strong> Al desagregar aparecen subsistemas y disminuye la complejidad visible, pero se pierde información del todo; al agregar ocurre el movimiento inverso.</li><li><strong>Los conceptos no son equivalentes.</strong> Todo sistema es sinérgico; hay recursividad cuando alguno de sus componentes también puede analizarse como sistema.</li></ul><p class="reading-question"><strong>Pregunta de lectura:</strong> ¿qué comportamiento solo se explica por la interacción de los componentes?</p></div>
+            <p class="annotation"><strong>Aplicación:</strong> modelo, instrucciones, conocimiento, herramientas, estado, permisos e interfaz adquieren sentido por su coordinación. El agente puede ser, a su vez, un subsistema de la organización.</p>
+          </div></section>
+          <section class="concept" aria-labelledby="apertura-title"><div class="concept__number" aria-hidden="true">9</div><div>
+            <p class="concept__chapter">Lorenzón · capítulo 9</p><h3 id="apertura-title">Sistema abierto y retroalimentación</h3>
+            <p>Un sistema abierto intercambia información y recursos con su entorno. La caja negra permite estudiar entradas, salidas y comportamiento observable aun cuando no resulte pertinente o posible describir todo el mecanismo interno.</p>
+            <ol class="system-flow" aria-label="Flujo de un sistema abierto"><li><span>01</span><strong>Entrada</strong><small>Solicitudes, datos y recursos</small></li><li><span>02</span><strong>Conversión</strong><small>Procesamiento y decisiones</small></li><li><span>03</span><strong>Salida</strong><small>Respuesta, acción o servicio</small></li><li><span>04</span><strong>Feedback</strong><small>Validación, resultado y ajuste</small></li></ol>
+            <div class="deep-reading"><h4>Lectura en profundidad</h4><ul><li><strong>La apertura se define por el intercambio.</strong> El sistema se comunica con un contexto del que importa recursos o información y al que exporta resultados.</li><li><strong>Entrada, conversión y salida constituyen una transformación.</strong> Hay que explicar qué cambia, mediante qué proceso y para sostener qué objetivo.</li><li><strong>La información tiene un comportamiento particular.</strong> Comunicarla no necesariamente la elimina del sistema; puede acumularse y modificar decisiones futuras.</li><li><strong>La retroalimentación cumple una función de control.</strong> Información sobre la salida retorna y permite comparar, corregir o sostener la conducta.</li><li><strong>La caja negra es una decisión metodológica.</strong> Permite observar relaciones relevantes sin describir toda la estructura interna.</li></ul><p class="reading-question"><strong>Pregunta de lectura:</strong> ¿qué información debe regresar para detectar un error y modificar la conducta?</p></div>
+          </div></section>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="traduccion-title">
+        <p class="section-kicker">03 · Transferencia conceptual</p><h2 id="traduccion-title">Del lenguaje sistémico al agente de IA</h2>
+        <div class="table-wrap" tabindex="0" role="region" aria-label="Equivalencias sistémicas en un agente de IA"><table>
+          <thead><tr><th scope="col">Categoría</th><th scope="col">Manifestación posible</th><th scope="col">Pregunta de control</th></tr></thead>
+          <tbody><tr><th scope="row">Entradas</th><td>Objetivo, instrucciones, documentos autorizados y resultados de herramientas.</td><td>¿La procedencia y vigencia están claras?</td></tr><tr><th scope="row">Conversión</th><td>Interpretación, planificación, consulta de fuentes, uso de herramientas y generación.</td><td>¿El proceso se ajusta al alcance?</td></tr><tr><th scope="row">Salidas</th><td>Respuesta, informe, clasificación, recomendación, derivación o acción.</td><td>¿Es verificable y adecuada?</td></tr><tr><th scope="row">Retroalimentación</th><td>Validación humana, resultado del entorno, evaluación de calidad o detección de error.</td><td>¿Puede modificar el curso de acción?</td></tr><tr><th scope="row">Perturbaciones</th><td>Datos incompletos, instrucciones contradictorias, fallas de acceso o cambios normativos.</td><td>¿Existe una respuesta segura?</td></tr></tbody>
+        </table></div>
+        <p class="note"><strong>Nota didáctica:</strong> la enumeración técnica es una traducción contemporánea para aplicar las categorías de Lorenzón; no corresponde a terminología propuesta por el autor.</p>
+      </section>
+
+      <section id="caso" class="section" aria-labelledby="caso-title">
+        <p class="section-kicker">04 · Situación problemática</p><h2 id="caso-title">Caso: orientación académica</h2>
+        <div class="case-brief"><p>Un instituto recibe consultas recurrentes sobre calendario, requisitos, procedimientos, documentación y actividades. La información existe, pero está distribuida en documentos y canales diferentes.</p><p><strong>Hipótesis de trabajo:</strong> estudiar un agente que oriente consultas desde un corpus autorizado, sin reemplazar decisiones institucionales, sin presentar información incierta como verdadera y derivando a una persona cuando la consulta exceda su alcance.</p></div>
+        <h3>Preguntas antes de construir</h3><ol class="question-list"><li>¿Cuál es el problema y quién lo reconoce?</li><li>¿Cuál es el objetivo preciso y qué queda fuera?</li><li>¿Qué actores y sistemas integran el contexto?</li><li>¿Qué información puede utilizar y bajo qué condiciones?</li><li>¿Qué decisiones requieren intervención humana?</li><li>¿Qué perturbaciones pueden afectar el funcionamiento?</li><li>¿Cómo se valida la salida y se incorpora feedback?</li><li>¿Qué ocurre cuando el agente no sabe?</li></ol>
+      </section>
+
+      <section id="ejemplo" class="section example" aria-labelledby="ejemplo-title">
+        <p class="section-kicker">05 · Ejemplo orientador</p><h2 id="ejemplo-title">Así podría avanzar un análisis</h2>
+        <p class="opening">Este desarrollo muestra el nivel de precisión esperado. No es una respuesta única ni una plantilla para copiar: cada decisión debe justificarse según el problema elegido.</p>
+        <div class="example-title"><span>Ejemplo</span><div><h3>Agente de consulta de correlatividades</h3><p>Un estudiante necesita saber si puede inscribirse a una materia. La información está repartida entre el plan de estudios, su historia académica y disposiciones vigentes.</p></div></div>
+        <div class="analysis-grid">
+          <article><span class="analysis-label">Problema</span><p>La consulta exige cruzar reglas vigentes con una situación particular. La demora o una interpretación incorrecta puede afectar la inscripción.</p></article>
+          <article><span class="analysis-label">Objetivo</span><p>Orientar sobre correlatividades y explicar requisitos cumplidos o pendientes, sin autorizar formalmente la inscripción.</p></article>
+          <article><span class="analysis-label">Frontera</span><p><strong>Dentro:</strong> interfaz, instrucciones, buscador documental, reglas versionadas y generador de respuesta. <strong>Fuera:</strong> sistema oficial, decisiones de Secretaría y actualización del plan.</p></article>
+          <article><span class="analysis-label">Área gris</span><p>La historia académica podría consultarse automáticamente o ser aportada por el estudiante. La decisión modifica privacidad, confiabilidad, permisos y costo.</p></article>
+          <article><span class="analysis-label">Contexto</span><p>Estudiante, Secretaría Académica, sistema de gestión, plan, calendario y normativa. Se excluyen sistemas sin relación significativa.</p></article>
+          <article><span class="analysis-label">Sinergia</span><p>El modelo aislado no conoce la situación institucional. El resultado surge al coordinar reglas, datos vigentes, validación y explicación.</p></article>
+          <article><span class="analysis-label">Recursividad</span><p>El agente contiene subsistemas de consulta y validación, pero también integra el sistema institucional de orientación e inscripción.</p></article>
+          <article><span class="analysis-label">Perturbaciones</span><p>Plan desactualizado, equivalencias excepcionales, datos incompletos, materias con nombres similares o caída del sistema académico.</p></article>
+        </div>
+        <h3>Modelo de apertura y control</h3>
+        <div class="example-flow"><div><strong>Entrada</strong><p>Materia, plan, versión normativa e historia académica autorizada.</p></div><div><strong>Conversión</strong><p>Identificar la regla, verificar vigencia, contrastar antecedentes y explicar.</p></div><div><strong>Salida</strong><p>Orientación fundamentada, requisitos pendientes, fuentes y fecha.</p></div><div><strong>Retroalimentación</strong><p>Confirmación institucional, corrección, prueba de consistencia y registro.</p></div></div>
+        <div class="example-decision"><h3>Decisión justificada</h3><p>Si falta información, existe una excepción o las fuentes se contradicen, el agente no concluye: informa la limitación y deriva la consulta. El criterio de éxito no es “responder siempre”, sino ofrecer orientación trazable dentro de su alcance.</p></div>
+      </section>
+
+      <section id="actividad" class="section" aria-labelledby="actividad-title">
+        <p class="section-kicker">06 · Producción individual</p><h2 id="actividad-title">Consigna de la clase 12</h2><p>Cada estudiante producirá de manera individual un <strong>modelo sistémico justificable</strong> de un problema concreto. En esta etapa no es obligatorio construir el agente: primero debe demostrarse que el sistema fue comprendido.</p>
+        <ol class="workshop-steps"><li><span>1</span><div><h3>Delimitar</h3><p>Definir objetivo, frontera y foco. Identificar qué queda dentro y fuera.</p><small>Frontera · contexto · variables endógenas y exógenas</small></div></li><li><span>2</span><div><h3>Relacionar</h3><p>Identificar componentes, subsistemas y efectos que dependen de la interacción.</p><small>Sinergia · conglomerado · recursividad · jerarquía</small></div></li><li><span>3</span><div><h3>Representar</h3><p>Diagramar entradas, conversión, salidas, feedback y perturbaciones.</p><small>Sistema abierto · corrientes · caja negra</small></div></li><li><span>4</span><div><h3>Problematizar</h3><p>Redactar el problema sin anticipar la herramienta como respuesta.</p><small>Necesidades · restricciones · situación problemática</small></div></li><li><span>5</span><div><h3>Investigar</h3><p>Formular cinco preguntas indispensables sobre agentes de IA.</p><small>Relevamiento · fuentes · construcción progresiva</small></div></li></ol>
+        <div class="parameters"><h3>Parámetros para avanzar</h3><ol><li><strong>Elegí una situación, no una herramienta.</strong> Describí quién experimenta el problema, dónde ocurre y qué evidencia permite reconocerlo.</li><li><strong>Redactá un objetivo verificable.</strong> Indicá qué transformación debería producir el sistema y qué acciones quedan prohibidas o fuera de alcance.</li><li><strong>Dibujá una frontera discutible.</strong> Enumerá lo interno, lo externo y al menos una decisión de área gris. Explicá qué cambia si movés ese límite.</li><li><strong>Buscá relaciones, no solo componentes.</strong> Mostrá al menos un efecto sinérgico y dos niveles recursivos.</li><li><strong>Representá el intercambio.</strong> Incluí entradas, conversión, salidas, retroalimentación y un mínimo de tres perturbaciones.</li><li><strong>Definí control y derivación.</strong> Explicá cómo se detecta un error, quién puede validar y cuándo debe intervenir una persona.</li><li><strong>Fundamentá con Lorenzón.</strong> Relacioná al menos una decisión propia con cada capítulo 7, 8 y 9. No alcanza con definir términos.</li><li><strong>Dejá preguntas abiertas.</strong> Cerrá con cinco aspectos por investigar antes de diseñar el agente.</li></ol></div>
+        <div class="deliverable"><span>Entrega de clase</span><p>Una publicación inicial con descripción del problema, modelo preliminar, diagrama, decisiones justificadas y cinco preguntas de investigación.</p></div>
+      </section>
+
+      <section id="proyecto" class="section" aria-labelledby="proyecto-title">
+        <p class="section-kicker">07 · Segundo tramo</p><h2 id="proyecto-title">Proyecto integrador</h2><p class="opening">Analizar una problemática, modelar sistémicamente un agente de IA pertinente y construir un prototipo funcional de alcance acotado.</p>
+        <div class="phase-grid"><article><span>A</span><h3>Comprender</h3><p>Investigar el agente, su entorno y sus componentes.</p></article><article><span>B</span><h3>Problematizar</h3><p>Relevar necesidades, actores, causas y restricciones.</p></article><article><span>C</span><h3>Diseñar</h3><p>Definir frontera, información, herramientas, controles y límites.</p></article><article><span>D</span><h3>Construir y probar</h3><p>Implementar, registrar fallas y ajustar con evidencia.</p></article><article><span>E</span><h3>Evaluar y defender</h3><p>Demostrar el alcance y fundamentar las decisiones.</p></article></div>
+        <h3>Cronograma orientativo</h3><div class="timeline"><div><time datetime="2026-08-28">28/08</time><p><strong>Lanzamiento.</strong> Contexto, sinergia, recursividad y sistemas abiertos.</p></div><div><time datetime="2026-09-04">04/09</time><p><strong>Investigación.</strong> Funcionamiento y arquitectura conceptual.</p></div><div><time datetime="2026-09-11">11/09</time><p><strong>Problema.</strong> Actores, causas, efectos y restricciones.</p></div><div><time datetime="2026-09-18">18/09</time><p><strong>Estructura y control.</strong> Componentes y derivación humana.</p></div><div><time datetime="2026-09-25">25/09</time><p><strong>Taller.</strong> Diagrama de contexto y especificación.</p></div><div><time datetime="2026-10-02">02/10</time><p><strong>Modelos.</strong> Funcionamiento esperado y supuestos.</p></div><div><time datetime="2026-10-09">09/10</time><p><strong>Metodología.</strong> Ruta de solución y alternativas.</p></div><div><time datetime="2026-10-16">16/10</time><p><strong>Dinámica.</strong> Feedback y escenarios de prueba.</p></div><div><time datetime="2026-10-23">23/10</time><p><strong>Integración.</strong> Prototipo inicial.</p></div><div><time datetime="2026-10-30">30/10</time><p><strong>Ajuste.</strong> Pruebas y documentación.</p></div><div><time datetime="2026-11-06">06/11</time><p><strong>Evaluación.</strong> Presentación y demostración.</p></div><div><time datetime="2026-11-13">13/11</time><p><strong>Recuperatorio.</strong> Reformulación o nueva defensa.</p></div></div>
+      </section>
+
+      <section class="section" aria-labelledby="proxima-title">
+        <p class="section-kicker">08 · Próxima clase</p><h2 id="proxima-title">Ficha de investigación</h2><p>Cada estudiante investigará cómo funciona un agente de IA en términos de sistema. La ficha deberá diferenciar un agente de una interacción aislada con un modelo y describir objetivo, contexto, herramientas, conocimiento, estado, permisos, límites, retroalimentación y supervisión.</p>
+        <div class="rubric"><div><strong>Producto</strong><span>Ficha breve + esquema inicial</span></div><div><strong>Criterio</strong><span>Afirmaciones técnicas con fuente identificada</span></div><div><strong>Enfoque</strong><span>Comprender antes de elegir plataforma</span></div></div>
+      </section>
+
+      <section id="entrega" class="section submission" aria-labelledby="entrega-title">
+        <p class="section-kicker">09 · Seguimiento en línea</p><h2 id="entrega-title">Publicación y entrega del enlace</h2>
+        <p class="opening">El trabajo debe permanecer accesible mediante un único enlace durante todo el proyecto. Cada estudiante elige el entorno que mejor pueda sostener y actualizar.</p>
+        <div class="platform-grid"><article><span class="platform-badge">Opción A</span><h3>Google Drive</h3><p>Crear una carpeta individual con el documento, diagramas y evidencias. Compartirla con permiso de lectura mediante enlace o específicamente con la cuenta indicada por la cátedra.</p><p class="best-for"><strong>Conveniente si:</strong> preferís documentos visuales y una configuración sencilla.</p></article><article><span class="platform-badge">Opción B</span><h3>GitHub</h3><p>Crear un repositorio y documentar el avance en <code>README.md</code>. Si desarrollás una web, podés publicarla con GitHub Pages y conservar archivos, cambios y evidencias en el repositorio.</p><p class="best-for"><strong>Conveniente si:</strong> querés practicar documentación técnica y control de versiones.</p></article></div>
+        <div class="link-requirements"><h3>El enlace se considera válido cuando</h3><ul class="check-list"><li>abre sin solicitar una autorización adicional al docente;</li><li>identifica estudiante, materia, comisión y problema elegido;</li><li>mantiene una estructura estable durante el proyecto;</li><li>muestra fecha o registro de la última actualización;</li><li>incluye fuentes, diagramas y versiones legibles;</li><li>no expone datos personales, credenciales ni información reservada.</li></ul></div>
+        <h3>Estructura mínima sugerida</h3><ol class="folder-tree"><li><code>00-presentacion</code> — datos académicos y enlace principal</li><li><code>01-problema</code> — situación, actores, causas y evidencia</li><li><code>02-modelo-sistemico</code> — frontera, contexto, sinergia y recursividad</li><li><code>03-flujos-y-control</code> — entradas, conversión, salidas, feedback y perturbaciones</li><li><code>04-investigacion</code> — fichas, fuentes y preguntas abiertas</li><li><code>05-prototipo-y-pruebas</code> — se incorporará en etapas posteriores</li></ol>
+        <div class="submission-callout"><strong>Qué se entrega en el aula virtual</strong><p>Solamente el enlace principal y una síntesis de dos o tres líneas del avance. Las actualizaciones posteriores se realizan en ese mismo espacio para que pueda revisarse el proceso y no solo el resultado final.</p></div>
+      </section>
+
+      <section id="fuentes" class="section references" aria-labelledby="fuentes-title">
+        <p class="section-kicker">10 · Bibliografía y ampliación</p><h2 id="fuentes-title">Fuentes de trabajo</h2>
+        <ol><li><p><strong>Lorenzón, E. E. (2020).</strong> <cite>Sistemas y organizaciones</cite>. EDULP. Capítulos 7, 8 y 9.</p><a href="https://sedici.unlp.edu.ar/handle/10915/99629" target="_blank" rel="noopener noreferrer">Registro y texto completo en SEDICI–UNLP ↗</a></li><li><p><strong>Domínguez Coutiño, L. A. (2012).</strong> <cite>Análisis de sistemas de información</cite>. Red Tercer Milenio. Unidad 4.</p><a href="https://drive.google.com/file/d/1xwgQvDMcwM0_S-nMu7YEMyb2RxjneaQV/view?usp=sharing" target="_blank" rel="noopener noreferrer">Consultar material en Google Drive ↗</a></li><li><p><strong>Pollo Cattaneo, M. F. (2018).</strong> <cite>Resolviendo problemas en los sistemas de información: enfoque para informáticos</cite> (4.ª ed.). CEIT.</p><a href="https://drive.google.com/file/d/115BISnXRvJM1kWRuvReuCrn_OMzd7S0x/view?usp=sharing" target="_blank" rel="noopener noreferrer">Consultar material en Google Drive ↗</a></li><li><p><strong>NIST (2023).</strong> <cite>Artificial Intelligence Risk Management Framework (AI RMF 1.0)</cite>. Marco para incorporar confiabilidad y gestión de riesgos en el ciclo de vida de sistemas de IA.</p><a href="https://doi.org/10.6028/NIST.AI.100-1" target="_blank" rel="noopener noreferrer">Publicación oficial y PDF ↗</a></li><li><p><strong>Anthropic (2024).</strong> <cite>Building effective agents</cite>. Distinción práctica entre flujos predefinidos y agentes que dirigen dinámicamente sus procesos y herramientas.</p><a href="https://www.anthropic.com/engineering/building-effective-agents" target="_blank" rel="noopener noreferrer">Artículo técnico ↗</a></li></ol>
+        <aside class="source-guide"><h3>Para evaluar una fuente</h3><p>Registrar autoría, institución, fecha, propósito y evidencia. Distinguir documentación técnica, investigación, divulgación y contenido comercial. Contrastar afirmaciones que puedan cambiar con el tiempo.</p></aside>
+      </section>
+    </article>
+    <aside class="side-note" aria-label="Síntesis de la clase"><p class="side-note__title">Pregunta guía</p><p>¿Qué necesitamos comprender del problema, su contexto y sus relaciones antes de construir un agente?</p><hr><p class="side-note__title">Conceptos clave</p><ul><li>Frontera</li><li>Contexto</li><li>Sinergia</li><li>Recursividad</li><li>Feedback</li></ul></aside>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><div><strong>ISFT N.º 151</strong><p>Tecnicatura Superior en Análisis de Sistemas</p></div><div><strong>Sistemas y Organización</strong><p>Material de cátedra · 2026</p></div><a href="#contenido">Volver al inicio ↑</a></div></footer>
+</body>
+</html>
