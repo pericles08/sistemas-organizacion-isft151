@@ -1,0 +1,16 @@
+/* Extensiones de la clase 13: conserva el sistema visual de la clase 12. */
+.review-banner{padding:.75rem 1.5rem;background:var(--cream);color:var(--navy);font-size:.85rem;text-align:center}
+.chapter-section h3{margin-top:2.1rem}.chapter-section h4{color:var(--blue);font-size:1rem}
+.chapter-intro{border-top:3px solid var(--gold);padding-top:1.5rem}.chapter-intro .concept__number{float:left;margin:0 1rem .5rem 0}
+.reading-ref{font-size:.85rem;color:var(--muted)}.reading-ref a{font-weight:600}
+.diagram{margin:2rem 0;padding:1.1rem;border:1px solid var(--line);background:white}
+.diagram img{display:block;width:100%;height:auto}.diagram figcaption{padding-top:.8rem;color:var(--muted);font-size:.85rem}
+.diagram-link{display:inline-block;margin-top:.4rem;font-size:.8rem;font-weight:600}
+.ladder{padding:0;list-style:none}.ladder li{margin:.5rem 0;padding:.8rem 1rem;border-left:3px solid var(--gold);background:var(--pale)}
+.ladder strong{color:var(--blue)}.ladder li:nth-child(even){background:white}
+.solution{margin:1.3rem 0;border:1px solid var(--line);background:white}.solution summary{padding:1rem 1.2rem;color:var(--blue);font-weight:700;cursor:pointer}.solution__body{padding:0 1.2rem 1.2rem}.solution__body>:last-child{margin-bottom:0}
+.video-list{display:grid;gap:1.2rem}.video-card{padding:1.5rem;border:1px solid var(--line);background:white}.video-card h3{margin-top:.4rem}.video-card p:last-child{margin-bottom:0}
+.model-cycle{display:grid;grid-template-columns:repeat(2,1fr);gap:.8rem;padding:0;list-style:none}.model-cycle li{padding:1rem;background:var(--pale);border-top:2px solid var(--gold)}.model-cycle strong{display:block;color:var(--blue)}
+.rule-list li{margin:.75rem 0}.compact-table table{min-width:620px}.chapter-section .comparison h4{margin-top:0}
+@media(max-width:680px){.model-cycle{grid-template-columns:1fr}.diagram{padding:.4rem}.diagram img{min-width:640px}.diagram{overflow-x:auto}.chapter-intro .concept__number{float:none;display:block}.review-banner{text-align:left}}
+@media print{.review-banner{border:1px solid #999;background:white}.diagram{break-inside:avoid}.diagram img{min-width:0}.solution__body{display:block}.model-cycle,.analysis-grid{break-inside:auto}.chapter-section{break-before:page}.video-card{break-inside:avoid}}

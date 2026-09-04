@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="780" viewBox="0 0 1040 780" role="img" aria-labelledby="title desc">
+<title id="title">Contexto del servicio de orientación de correlatividades</title><desc id="desc">Ocho flujos conectan al servicio con estudiante, Secretaría, gestión académica y repositorio normativo. El detalle F1 a F8 se desarrolla en la clase.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 9 4.5 0 9Z" fill="#245779"/></marker></defs>
+<rect width="1040" height="780" fill="#fff"/>
+<g font-family="Segoe UI,Arial,sans-serif" fill="#102a43">
+<text x="35" y="38" font-size="14" letter-spacing="2" fill="#88652f">MODELO DE CONTEXTO · VERSIÓN PROPUESTA</text>
+<rect x="360" y="80" width="320" height="95" rx="3" fill="#eff6f9" stroke="#245779"/><text x="520" y="118" text-anchor="middle" font-size="22">Repositorio normativo</text><text x="520" y="148" text-anchor="middle" font-size="17">Fuente institucional externa</text>
+<rect x="20" y="330" width="225" height="110" rx="3" fill="#eff6f9" stroke="#245779"/><text x="132" y="376" text-anchor="middle" font-size="23">Estudiante</text><text x="132" y="408" text-anchor="middle" font-size="15">Consulta y recibe orientación</text>
+<rect x="795" y="330" width="225" height="110" rx="3" fill="#eff6f9" stroke="#245779"/><text x="907" y="373" text-anchor="middle" font-size="22">Secretaría</text><text x="907" y="402" text-anchor="middle" font-size="22">Académica</text>
+<rect x="360" y="610" width="320" height="95" rx="3" fill="#eff6f9" stroke="#245779"/><text x="520" y="649" text-anchor="middle" font-size="22">Gestión académica</text><text x="520" y="678" text-anchor="middle" font-size="17">Sistema oficial externo</text>
+<rect x="350" y="305" width="340" height="160" rx="28" fill="#102a43"/><text x="520" y="351" text-anchor="middle" font-size="22" fill="#fff">Servicio de orientación</text><text x="520" y="383" text-anchor="middle" font-size="22" fill="#fff">de correlatividades</text><text x="520" y="421" text-anchor="middle" font-size="16" fill="#f1e6cf">LÍMITE DEL SISTEMA EN ESTUDIO</text>
+<g fill="none" stroke="#245779" stroke-width="2.5" marker-end="url(#arrow)">
+<path d="M245 356H350"/><path d="M350 414H245"/>
+<path d="M690 356H795"/><path d="M795 414H690"/>
+<path d="M450 305V175"/><path d="M590 175V305"/>
+<path d="M450 465V610"/><path d="M590 610V465"/>
+</g>
+<g font-size="16" font-weight="600"><text x="297" y="343" text-anchor="middle">F1</text><text x="297" y="439" text-anchor="middle">F2</text><text x="742" y="343" text-anchor="middle">F7</text><text x="742" y="439" text-anchor="middle">F8</text>
+<text x="435" y="227" text-anchor="end">F5 · Búsqueda</text><text x="435" y="250" text-anchor="end">normativa</text><text x="605" y="227">F6 · Documentos</text><text x="605" y="250">y vigencia</text>
+<text x="435" y="523" text-anchor="end">F3 · Solicitud</text><text x="435" y="546" text-anchor="end">de antecedentes</text><text x="605" y="523">F4 · Antecedentes</text><text x="605" y="546">o indisponibilidad</text></g>
+<g font-size="16" fill="#52616c"><text x="20" y="292">F1 · Consulta</text><text x="20" y="487">F2 · Orientación / aclaración</text><text x="745" y="292">F7 · Derivación / revisión</text><text x="745" y="487">F8 · Criterio / corrección</text></g>
+<text x="35" y="749" font-size="16" fill="#52616c">Supuesto a validar: acceso autorizado y de solo lectura. La inscripción formal queda fuera del servicio.</text>
+</g></svg>

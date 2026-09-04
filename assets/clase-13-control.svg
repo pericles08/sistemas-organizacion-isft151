@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="660" viewBox="0 0 1040 660" role="img" aria-labelledby="title desc">
+<title id="title">Ciclo básico de control aplicado a la orientación</title><desc id="desc">La actividad produce la orientación. Sensor, comparador, decisor y efector forman un circuito de retorno; el colocador de objetivos aporta el estándar al comparador y las reglas de decisión al decisor.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 9 4.5 0 9Z" fill="#245779"/></marker></defs>
+<rect width="1040" height="660" fill="#fff"/>
+<g font-family="Segoe UI,Arial,sans-serif" fill="#102a43">
+<text x="35" y="40" font-size="14" letter-spacing="2" fill="#88652f">DEL RESULTADO OBSERVADO A LA ACCIÓN CORRECTIVA</text>
+<rect x="25" y="80" width="980" height="380" fill="#eff6f9" stroke="#d5dde2" stroke-dasharray="7 6"/>
+<text x="48" y="112" font-size="14" fill="#52616c">FUNCIONES DEL ADAPTADOR · RESPONSABILIDADES A ASIGNAR</text>
+<g fill="none" stroke="#245779" stroke-width="2.5" marker-end="url(#arrow)"><path d="M235 555H785"/><path d="M885 510V365"/><path d="M780 320H730"/><path d="M510 320H460"/><path d="M260 320H210"/><path d="M115 365V510"/><path d="M600 205V275"/><path d="M450 164H360V275"/></g>
+<g stroke="#245779" fill="#fff"><rect x="45" y="275" width="165" height="90"/><rect x="260" y="275" width="200" height="90"/><rect x="510" y="275" width="220" height="90"/><rect x="780" y="275" width="210" height="90"/><rect x="450" y="130" width="320" height="75" fill="#f1e6cf"/></g>
+<g text-anchor="middle"><text x="610" y="158" font-size="20" font-weight="600">Colocador de objetivos</text><text x="610" y="186" font-size="16">Responsable institucional</text>
+<text x="127" y="310" font-size="23">Efector</text><text x="127" y="338" font-size="16">Aplica la corrección</text>
+<text x="360" y="310" font-size="23">Decisor</text><text x="360" y="338" font-size="16">Selecciona la acción</text>
+<text x="620" y="310" font-size="23">Comparador</text><text x="620" y="338" font-size="16">Detecta la desviación</text>
+<text x="885" y="310" font-size="23">Sensor</text><text x="885" y="338" font-size="16">Revisa la evidencia</text></g>
+<rect x="25" y="510" width="210" height="90" fill="#102a43"/><rect x="785" y="510" width="220" height="90" fill="#102a43"/>
+<g fill="#fff" text-anchor="middle"><text x="130" y="547" font-size="23">Actividad</text><text x="130" y="575" font-size="17">Elaborar orientación</text><text x="895" y="547" font-size="23">Salida</text><text x="895" y="575" font-size="17">Orientación emitida</text></g>
+<g font-size="16" fill="#52616c"><text x="615" y="247">Estándar esperado</text><text x="340" y="238" text-anchor="end">Reglas de decisión</text><text x="135" y="433">Acción correctiva</text><text x="700" y="433">Resultado observado</text><text x="420" y="541">Producción del servicio</text></g>
+<text x="35" y="637" font-size="16" fill="#52616c">Una corrección debe aplicarse y volver a comprobarse. Registrar una alerta no completa el ciclo.</text>
+</g></svg>

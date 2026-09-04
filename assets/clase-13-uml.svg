@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="810" viewBox="0 0 1040 810" role="img" aria-labelledby="title desc">
+<title id="title">Casos de uso del servicio de orientación de correlatividades</title><desc id="desc">Cuatro casos de uso: Obtener orientación, Solicitar revisión, Registrar revisión y Mantener criterios. Actores: Estudiante, Secretaría Académica, Gestión académica y Repositorio normativo.</desc>
+<rect width="1040" height="810" fill="#fff"/>
+<g font-family="Segoe UI,Arial,sans-serif" fill="#102a43">
+<text x="30" y="38" font-size="14" letter-spacing="2" fill="#88652f">UML · CASOS DE USO · PRIMERA VISTA</text>
+<rect x="280" y="80" width="440" height="625" fill="#fbfaf7" stroke="#102a43" stroke-width="2"/>
+<text x="500" y="114" text-anchor="middle" font-size="19" font-weight="600">Servicio de orientación de correlatividades</text>
+<g stroke="#245779" stroke-width="2" fill="none"><path d="M132 275L345 220"/><path d="M132 275L345 360"/><path d="M850 170L655 220"/><path d="M850 290L655 220"/><path d="M875 494L655 360"/><path d="M875 494L655 490"/><path d="M875 494L655 620"/></g>
+<g fill="#eff6f9" stroke="#245779" stroke-width="2"><ellipse cx="500" cy="220" rx="155" ry="43"/><ellipse cx="500" cy="360" rx="155" ry="43"/><ellipse cx="500" cy="490" rx="155" ry="43"/><ellipse cx="500" cy="620" rx="155" ry="43"/></g>
+<g text-anchor="middle" font-size="22"><text x="500" y="227">Obtener orientación</text><text x="500" y="367">Solicitar revisión</text><text x="500" y="497">Registrar revisión</text><text x="500" y="627">Mantener criterios</text></g>
+<g stroke="#102a43" stroke-width="2.5" fill="#fff"><circle cx="132" cy="220" r="20"/><path d="M132 240V303M100 266H164M132 303L103 345M132 303L161 345"/><circle cx="875" cy="438" r="20"/><path d="M875 458V521M843 484H907M875 521L846 563M875 521L904 563"/></g>
+<g text-anchor="middle" font-size="21"><text x="132" y="379">Estudiante</text><text x="875" y="594">Secretaría</text><text x="875" y="622">Académica</text></g>
+<g fill="#eff6f9" stroke="#245779"><rect x="800" y="120" width="225" height="80"/><rect x="800" y="260" width="225" height="80"/></g>
+<g text-anchor="middle"><text x="912" y="148" font-size="17">«actor»</text><text x="912" y="178" font-size="21">Gestión académica</text><text x="912" y="288" font-size="17">«actor»</text><text x="912" y="318" font-size="20">Repositorio normativo</text></g>
+<text x="30" y="749" font-size="17" fill="#52616c">Líneas = participación de actores. No representan flujo de datos ni orden de ejecución.</text>
+<text x="30" y="778" font-size="17" fill="#52616c">Alcance: orientar y registrar revisión. La autorización formal de inscripción queda fuera del sistema.</text>
+</g></svg>
