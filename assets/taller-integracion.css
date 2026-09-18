@@ -1,0 +1,17 @@
+/* Extensión del estilo de las clases 12 y 13. */
+.prompt-panel{margin:1.5rem 0;border:1px solid var(--line);background:var(--white)}
+.prompt-label{margin:0;padding:.8rem 1.2rem;background:var(--navy);color:var(--white);font-size:.8rem;font-weight:600}
+.prompt-panel pre{margin:0;padding:1.4rem;white-space:pre-wrap;overflow-wrap:anywhere;font: .9rem/1.75 "Consolas",monospace;tab-size:2}
+.resource-stack{display:grid;gap:1rem;margin:2rem 0}
+.resource-card{padding:1.5rem;border:1px solid var(--line);background:var(--white)}
+.resource-card h3{margin:.8rem 0}
+.resource-card p:last-child{margin-bottom:0}
+.teacher-notes{margin-top:2rem;border:1px solid var(--line);background:var(--pale)}
+.teacher-notes summary{padding:1.2rem;cursor:pointer;color:var(--navy);font-weight:700}
+.teacher-notes .section{padding:1.5rem;border:0}
+.teacher-notes h2{font-size:1.6rem}
+.section>ol>li,.section>ul>li{margin-bottom:.55rem}
+.table-wrap td{vertical-align:top}
+a:focus-visible,summary:focus-visible,pre:focus-visible,.table-wrap:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+@media(max-width:680px){.prompt-panel pre{padding:1rem;font-size:.82rem}.resource-card{padding:1.1rem}}
+@media print{.section-nav,.side-note,.skip-link{display:none}.site-header{background:white;color:black}.site-header h1,.site-header p,.metadata dt,.metadata dd{color:black}.hero{padding-block:1rem}.institution{margin-bottom:1rem}.page-layout{display:block}.section{padding-block:1.5rem}.prompt-panel pre{font-size:9pt}.resource-card{break-inside:avoid}.container{width:100%}a{color:inherit}.table-wrap{overflow:visible}table{min-width:0!important}}
