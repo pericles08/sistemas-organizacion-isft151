@@ -6,10 +6,6 @@
 .resource-card{padding:1.5rem;border:1px solid var(--line);background:var(--white)}
 .resource-card h3{margin:.8rem 0}
 .resource-card p:last-child{margin-bottom:0}
-.teacher-notes{margin-top:2rem;border:1px solid var(--line);background:var(--pale)}
-.teacher-notes summary{padding:1.2rem;cursor:pointer;color:var(--navy);font-weight:700}
-.teacher-notes .section{padding:1.5rem;border:0}
-.teacher-notes h2{font-size:1.6rem}
 .section>ol>li,.section>ul>li{margin-bottom:.55rem}
 .table-wrap td{vertical-align:top}
 a:focus-visible,summary:focus-visible,pre:focus-visible,.table-wrap:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
