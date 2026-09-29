@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title"><title id="title">Relaciones · Include y extend</title><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#245779" stroke-width="1.5"/></marker><marker id="triangle" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto"><path d="M1 1 L11 6 L1 11 Z" fill="white" stroke="#245779"/></marker></defs><rect width="100%" height="100%" fill="white"/>
+<rect x="220" y="25" width="950" height="615" fill="white" stroke="#245779" stroke-width="2"/>
+<text x="695.0" y="55" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#102a43">Agente de apoyo a la cursada · ampliación propuesta</text>
+<rect x="15" y="260" width="175" height="90" fill="#eff6f9" stroke="#245779" stroke-width="2"/>
+<text x="102.5" y="299.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#102a43">«actor»</text>
+<text x="102.5" y="322.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#102a43">Estudiante</text>
+<ellipse cx="470.0" cy="190.0" rx="190.0" ry="65.0" fill="#eff6f9" stroke="#245779" stroke-width="2"/>
+<text x="470.0" y="161.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#102a43">Obtener orientación</text>
+<text x="470.0" y="184.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#102a43">──────────────</text>
+<text x="470.0" y="207.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#102a43">Punto de extensión:</text>
+<text x="470.0" y="230.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#102a43">orientación presentada</text>
+<ellipse cx="970.0" cy="190.0" rx="145.0" ry="45.0" fill="#eff6f9" stroke="#245779" stroke-width="2"/>
+<text x="970.0" y="184.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#102a43">Registrar</text>
+<text x="970.0" y="207.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#102a43">interacción</text>
+<ellipse cx="470.0" cy="455.0" rx="170.0" ry="50.0" fill="#eff6f9" stroke="#245779" stroke-width="2"/>
+<text x="470.0" y="449.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#102a43">Solicitar revisión</text>
+<text x="470.0" y="472.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#102a43">docente</text>
+<polyline points="660,190 825,190" fill="none" stroke="#245779" stroke-width="2" marker-end="url(#arrow)" stroke-dasharray="8 6"/>
+<text x="741" y="170" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#102a43">«include»</text>
+<polyline points="470,405 470,255" fill="none" stroke="#245779" stroke-width="2" marker-end="url(#arrow)" stroke-dasharray="8 6"/>
+<text x="545" y="320" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#102a43">«extend»</text>
+<polyline points="190,285 280,190" fill="none" stroke="#245779" stroke-width="2"/>
+<polyline points="190,325 300,455" fill="none" stroke="#245779" stroke-width="2"/>
+<text x="865" y="430" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#102a43">Condición de la extensión:</text>
+<text x="865" y="451" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#102a43">[el estudiante pide revisión]</text>
+<text x="865" y="472" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#102a43">Punto: orientación presentada</text>
+<text x="690" y="580" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#102a43">La extensión registra un pedido. El docente lo revisa después mediante CU-04.</text></svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title"><title id="title">Contexto · Agente de apoyo a la cursada</title><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#245779" stroke-width="1.5"/></marker><marker id="triangle" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto"><path d="M1 1 L11 6 L1 11 Z" fill="white" stroke="#245779"/></marker></defs><rect width="100%" height="100%" fill="white"/>
+<rect x="465" y="110" width="270" height="370" fill="#f1e6cf" stroke="#245779" stroke-width="2"/>
+<text x="600.0" y="289.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#102a43">Agente de apoyo</text>
+<text x="600.0" y="312.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#102a43">a la cursada</text>
+<rect x="20" y="100" width="170" height="110" fill="#eff6f9" stroke="#245779" stroke-width="2"/>
+<text x="105.0" y="161.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#102a43">Estudiante</text>
+<rect x="20" y="360" width="170" height="110" fill="#eff6f9" stroke="#245779" stroke-width="2"/>
+<text x="105.0" y="421.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#102a43">Docente</text>
+<rect x="1010" y="100" width="170" height="110" fill="#eff6f9" stroke="#245779" stroke-width="2"/>
+<text x="1095.0" y="149.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#102a43">Campus /</text>
+<text x="1095.0" y="172.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#102a43">repositorio</text>
+<rect x="1010" y="360" width="170" height="110" fill="#eff6f9" stroke="#245779" stroke-width="2"/>
+<text x="1095.0" y="409.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#102a43">Servicio</text>
+<text x="1095.0" y="432.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#102a43">externo de IA</text>
+<polyline points="190,130 465,130" fill="none" stroke="#245779" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="325" y="115" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#102a43">Consulta y aclaraciones</text>
+<polyline points="465,185 190,185" fill="none" stroke="#245779" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="325" y="210" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#102a43">Orientación y recursos</text>
+<polyline points="190,390 465,390" fill="none" stroke="#245779" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="325" y="375" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#102a43">Criterios y fuentes</text>
+<polyline points="465,445 190,445" fill="none" stroke="#245779" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="325" y="470" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#102a43">Registros y alertas</text>
+<polyline points="735,130 1010,130" fill="none" stroke="#245779" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="873" y="115" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#102a43">Solicitud de materiales</text>
+<polyline points="1010,185 735,185" fill="none" stroke="#245779" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="873" y="210" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#102a43">Materiales / estado</text>
+<polyline points="735,390 1010,390" fill="none" stroke="#245779" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="873" y="375" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#102a43">Solicitud de inferencia</text>
+<polyline points="1010,445 735,445" fill="none" stroke="#245779" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="873" y="470" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#102a43">Propuesta / error</text>
+<text x="600" y="550" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#102a43">Frontera: aplicación del agente. No se muestran sus componentes internos.</text></svg>
